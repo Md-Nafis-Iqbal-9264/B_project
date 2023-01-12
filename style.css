@@ -376,6 +376,58 @@ h1{
 
 /* main------end--------hear */
 
+/* circle----------start-----------hear */
+
+.out-animation{
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    margin: 30px;
+    padding: 30px 10px;
+}
+.circle-animetion{
+    background-image: linear-gradient(to top,white,wheat);
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.out-side{
+    background-image: linear-gradient(to left,#9E59FF,#D789FF);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.in-side{
+    background-image: linear-gradient(white,wheat);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.icon-list{
+    padding: 5px;
+}
+.icon-list div{
+    padding: 5px;
+}
+.icon-list div a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.icon-list div i{
+    color: blue;
+    font-size: 20px;
+}
+
+/* circle----------end-----------hear */
+
 /* card------start-----hear */
 
 .cards{
@@ -385,7 +437,7 @@ h1{
     justify-content: space-between;
 }
 .card-1{
-    background-image: linear-gradient(to left,#FE8DAB,#FFBD96);
+    color: linear-gradient(to left,#FE8DAB,#FFBD96);
     width: 290px;
     height: 250px;
     padding: 40px;
