@@ -437,7 +437,7 @@ h1{
     justify-content: space-between;
 }
 .card-1{
-    color: linear-gradient(to left,#FE8DAB,#FFBD96);
+    background-image: linear-gradient(to left,#FE8DAB,#FFBD96);
     width: 290px;
     height: 250px;
     padding: 40px;
